@@ -11,3 +11,4 @@ REM Without CALL, this script can exit caller script, but with CALL,
 REM this script returns back to caller and does not exit caller.
 
 exit /B %ERRORLEVEL%
+REM To use this script like `exit`, do not use with the CALL command.fix
